@@ -1,0 +1,83 @@
+img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 1.85rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul > li {
+	padding-top: 0.625rem;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50rem;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2rem;
+}
+
+.title {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	margin-left: 1.85rem;
+	height: 10rem;
+	width: 25rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;	
+}
+
+.left {
+	flex: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1.25rem 1.25rem 1.25rem 1.85rem;
+	border-right: 1px solid black;
+}
+
+.right {
+	flex: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+}
+
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+	font-family: "Times New Roman", Times, serif;
+}
+
+.section > div {
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+}
+
+.subject {
+	border-bottom: 2px dashed black;	
+	font-weight: bold;
+}
+
+.info-item, .inst-name {
+	font-weight: bold;
+}
+
+.edu-unit {
+	display:flex;
+	flex-direction:column;
+}
